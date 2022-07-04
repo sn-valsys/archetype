@@ -1,5 +1,5 @@
 {
-    "name": "ajthinking/archetype",
+    "name": "sn-valsys/archetype",
     "type": "package",
     "description": "Programmatically edit PHP and Laravel files.",
     "keywords": [
@@ -10,12 +10,6 @@
         "php-parser"
     ],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Anders Jürisoo",
-            "email": "jurisoo@hotmail.com"
-        }
-    ],
     "require": {
         "nikic/php-parser": "^4.11"
     },
