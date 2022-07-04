@@ -8,14 +8,14 @@ class LaravelStrings
 {
 	public static function hasOneMethodName($target)
 	{
-		return Str::camel(
+		return Str::snake(
 			class_basename($target)
 		);
 	}
 
 	public static function hasManyMethodName($target)
 	{
-		return Str::camel(
+		return Str::snake(
 			Str::plural(
 				class_basename($target)
 			)
@@ -24,14 +24,14 @@ class LaravelStrings
 
 	public static function belongsToMethodName($target)
 	{
-		return Str::camel(
+		return Str::snake(
 			class_basename($target)
 		);
 	}
 
 	public static function belongsToManyMethodName($target)
 	{
-		return Str::camel(
+		return Str::snake(
 			Str::plural(
 				class_basename($target)
 			)
